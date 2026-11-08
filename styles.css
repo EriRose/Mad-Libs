@@ -65,4 +65,10 @@ h2 {
      margin: auto;
  }
 
+@media screen and (max-width: 768px) {
+    body {
+     font-size: 14px;
+     line-height: 1.3;
+    }
+}
  
