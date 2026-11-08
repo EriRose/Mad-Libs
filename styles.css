@@ -1,0 +1,68 @@
+
+ :root {
+     --background-color: rgb(250, 246, 239);
+
+
+ }
+
+
+.playpen-sans-<uniquifier> {
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+ html {
+     box-sizing: border-box;
+ }
+
+ *,
+ *::before,
+ *::after {
+    box-sizing: inherit;
+ }
+
+body {
+     margin: auto;
+     background-color: var(--background-color);
+     max-width: 650px;
+     font-family: "Playpen Sans", cursive;
+     font-weight: 300;
+     font-size: 24px;
+     line-height: 1.5;
+ }
+
+h1,
+h2 {
+     text-align: center;
+ }
+
+ #button {
+     position: relative;
+     margin: auto;
+     margin-top: 3rem;
+     padding: .5rem 1.5rem;
+     font-size: 1.5em;
+     color: #ffffff;
+     display: block;
+     background-color: rgb(4, 59, 186);
+ }
+
+ #button:hover {
+     background-color: rgb(120, 4, 183);
+ }
+
+ #madlib {
+    color: auto;
+    position: relatives;
+    margin: auto;
+ }
+
+ #inst {
+     max-width: 70%;
+     margin: auto;
+ }
+
+ 
