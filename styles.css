@@ -39,6 +39,10 @@ h2 {
      text-align: center;
  }
 
+ b {
+    font-weight: 900;
+ }
+
  #button {
      position: relative;
      margin: auto;
