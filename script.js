@@ -8,22 +8,22 @@ function startMadLib() {
     // hide the instructions
     instructions.style.visibility = 'hidden';
 
-    const adj1 = prompt('Enter an adjective');
-    const verb1 = prompt('Enter a past-tense verb');
-    const pluralNoun1 = prompt("Enter a plural noun");
-    const adj2 = prompt('Enter an adjective');
-    const verb2 = prompt('Enter a verb ending in -ing');
-    const pluraNoun2 = prompt('Enter a plural noun');
-    const noun1 = prompt('Enter a noun');
-    const adj3 = prompt('Enter an adjective');
-    const pluralNoun3 = prompt('Enter a plural noun');
-    const adv1 = prompt('Enter an adverb');
-    const noun2 = prompt('Enter an noun');
-    const adv2 = prompt('Enter an adverb');
-    const noun3 = prompt('Enter an noun');
-    const adj4 = prompt('Enter an adjective');
-    const adv3 = prompt('Enter an adverb');
-    const occupation = prompt('Enter an occupation');
+    const adj1 = prompt('Enter an adjective').toLowerCase();
+    const verb1 = prompt('Enter a past-tense verb').toLowerCase();
+    const pluralNoun1 = prompt("Enter a plural noun").toLowerCase();
+    const adj2 = prompt('Enter an adjective').toLowerCase();
+    const verb2 = prompt('Enter a verb ending in -ing').toLowerCase();
+    const pluraNoun2 = prompt('Enter a plural noun').toLowerCase();
+    const noun1 = prompt('Enter a noun').toLowerCase();
+    const adj3 = prompt('Enter an adjective').toLowerCase();
+    const pluralNoun3 = prompt('Enter a plural noun').toLowerCase();
+    const adv1 = prompt('Enter an adverb').toLowerCase();
+    const noun2 = prompt('Enter an noun').toLowerCase();
+    const adv2 = prompt('Enter an adverb').toLowerCase();
+    const noun3 = prompt('Enter an noun').toLowerCase();
+    const adj4 = prompt('Enter an adjective').toLowerCase();
+    const adv3 = prompt('Enter an adverb').toLowerCase();
+    const occupation = prompt('Enter an occupation').toLowerCase();
 
     const inst = document.getElementById("instructions");
     const button = document.getElementById("button");
