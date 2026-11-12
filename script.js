@@ -33,7 +33,7 @@ button.style.display = "none";
 // create Mad Lib
 let message = `<p>The universe is quite a <b>${adj1}</b> place full of mysteries to be <b>${verb1}</b>.
 It is filled with black <b>${pluralNoun1}</b> and <b>${adj2}</b> stars. 
-We are <b>${verb2}</b> at the past whenever we look a the <b>${pluraNoun2}</b> in our sky.
+We are <b>${verb2}</b> at the past whenever we look at the <b>${pluraNoun2}</b> in our sky.
 Most elements in the periodic table were forged within <b>${adj3}</b> stars!
 That means that <b>${pluralNoun3}</b> alive today are <b>${adv1}</b> made up of matter that was once a star!
 Exoplanets are found because of the wobble they cause the <b>${noun1}</b> they <b>${adv2}</b> orbit.
